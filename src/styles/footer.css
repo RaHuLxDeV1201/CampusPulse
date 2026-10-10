@@ -1,0 +1,41 @@
+.cp-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 18px 30px;
+  padding: 28px 7%;
+  color: #ffffff;
+  background: #10243d;
+}
+
+.cp-footer-logo .cp-logo-text {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.cp-footer-logo .cp-logo-icon {
+  color: var(--cp-navy);
+  background: var(--cp-gold);
+}
+
+.cp-footer > p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.cp-copyright {
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 11px;
+}
+
+@media (max-width: 650px) {
+  .cp-footer {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 15px;
+    padding: 28px 5%;
+  }
+}
